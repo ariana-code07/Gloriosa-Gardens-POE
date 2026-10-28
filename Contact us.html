@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact </title>
+    <meta name="description" content="Call, email or send us a message. Find Gloriosa Gardens on the map at 90 Rebecca St, Florida, Roodepoort. Open Monday to Saturday.">
+    <meta name="keywords" content="contact Gloriosa Gardens, garden services Florida Roodepoort, gardener near me Roodepoort">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gloriosa Gardens">
+    <meta name="theme-color" content="#16301F">
+    <link rel="canonical" href="https://gloriosagardens.netlify.app/contact.html">
+    <link rel="icon" type="image/png" href="images/gloriosa-gardens-logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:site_name" content="Gloriosa Gardens">
+    <meta property="og:title" content="Contact ">
+    <meta property="og:description" content="Call, email or send us a message. Find Gloriosa Gardens on the map at 90 Rebecca St, Florida, Roodepoort. Open Monday to Saturday.">
+    <meta property="og:url" content="https://gloriosagardens.netlify.app/contact.html">
+    <meta property="og:image" content="https://gloriosagardens.netlify.app/images/garden-lawn-background.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="topbar" id="topbar">
+        <time id="gg-datetime" datetime=""><span id="gg-date"></span> <span class="sep">&middot;</span> <span id="gg-clock"></span></time>
+        <span id="gg-status" class="status">Mon&ndash;Fri 07:00&ndash;17:00 &middot; Sat 08:00&ndash;13:00</span>
+    </div>
+    <div class="flame-rule"></div>
+    <header class="site-header">
+        <div class="brand-row">
+            <img class="logo" src="Images/gloriosa-gardens-logo.png" style="width: 23cm;height: 5cm;"> </div>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="Home.html">Home</a>
+            <a href="About us.html">About Us</a>
+            <a href="Services.html">Services</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Contact us.html" class="active">Contact Us</a>
+            <a href="Enquiry.html">Enquiry</a>
+        </nav>
+    </header>
+
+    <section class="hero" style="--hero-image: url('Images/garden-stone-walkway.jpg');">
+        <span class="eyebrow">Get In Touch</span>
+        <h1>Contact Information</h1>
+        <p class="lede">We'd love to help with your next garden project. Reach out any way that suits you.</p>
+        <div class="hero-divider"></div>
+    </section>
+
+    <main id="main">
+        <section class="contact-grid">
+            <div class="contact-card">
+                <div class="label">Phone Number</div>
+                <p class="value">+27 84 723 9418</p>
+            </div>
+            <div class="contact-card">
+                <div class="label">Email</div>
+                <p class="value">gloriosa123.rl@gmail.com</p>
+                <a class="btn-link" href="mailto:gloriosa123.rl@gmail.com">Send us an email</a>
+            </div>
+            <div class="contact-card">
+                <div class="label">LinkedIn</div>
+                <p class="value">Check out the owner's profile</p>
+                <a class="btn-link" href="https://www.linkedin.com/in/richard-lyall-24b70065?utm_source=share_via&utm_contact=profile&utm_medium=member_android" target="_blank" rel="noopener">Richard Lyall</a>
+            </div>
+            <div class="contact-card">
+                <div class="label">Request A Quote</div>
+                <p class="value">Prefer a form?</p>
+                <a class="btn-link" href="Enquiry.html">Go To Enquiry Page</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-heading">
+                <span class="kicker">When We're Available</span>
+                <h2>Operating Hours</h2>
+            </div>
+            <div class="contact-card" style="max-width: 480px; margin: 0 auto;">
+                <table class="hours-table">
+                    <tr data-days="1,2,3,4,5"><td>Monday &ndash; Friday</td><td>07:00 &ndash; 17:00</td></tr>
+                    <tr data-days="6"><td>Saturday</td><td>08:00 &ndash; 13:00</td></tr>
+                    <tr data-days="0"><td>Sunday &amp; Public Holidays</td><td>Closed</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-heading"><span class="kicker">Send A Message</span><h2>Get In Touch</h2><p>Questions, feedback or a general message? Fill in the form and we will compile an email for you to send to us.</p></div>
+            <div class="form-card">
+                <form id="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group"><label for="name">Full Name <span class="required">*</span></label><input type="text" id="name" name="name" data-rule="name" placeholder="Jane Dlamini" required autocomplete="name" maxlength="60"><div class="field-meta"><span class="field-error" id="name-error" role="alert"></span></div></div>
+                        <div class="form-group"><label for="email">Email Address <span class="required">*</span></label><input type="email" id="email" name="email" data-rule="email" placeholder="you@example.com" required autocomplete="email"><div class="field-meta"><span class="field-error" id="email-error" role="alert"></span></div></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"><label for="phone">Phone Number (optional)</label><input type="tel" id="phone" name="phone" data-rule="phone" placeholder="082 123 4567" autocomplete="tel"><div class="field-meta"><span class="field-error" id="phone-error" role="alert"></span></div></div>
+                        <div class="form-group"><label for="msgtype">Type Of Message <span class="required">*</span></label><select id="msgtype" name="msgtype" data-rule="select" required><option value="">Choose&hellip;</option><option value="general">General question</option><option value="feedback">Feedback</option><option value="compliment">Compliment</option><option value="complaint">Complaint</option><option value="partnership">Partnership or work with us</option></select><div class="field-meta"><span class="field-error" id="msgtype-error" role="alert"></span></div></div>
+                    </div>
+                    <div class="form-group"><label for="message">Your Message <span class="required">*</span></label><textarea id="message" name="message" data-rule="message" rows="5" minlength="10" maxlength="500" required placeholder="Type your message here..."></textarea><div class="field-meta"><span class="field-error" id="message-error" role="alert"></span><span class="char-count" id="message-count">0 / 500</span></div></div>
+                    <button type="submit" class="form-submit">Compile My Email</button>
+                </form>
+                <div id="contact-result" class="result-panel" hidden tabindex="-1" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-heading">
+                <span class="kicker">Find Us</span>
+                <h2>Our Location</h2>
+            </div>
+            <div class="map-wrap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d14321.982044578672!2d27.92913908233249!3d-26.18055468193715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x1e950a7e40032fb9%3A0x41ac59aff7eb9f4a!2s90%20Rebecca%20St%2C%20Florida%2C%20Roodepoort%2C%201710!3m2!1d-26.1807685!2d27.929275099999998!5e0!3m2!1sen!2sza!4v1786445023776!5m2!1sen!2sza"
+                    loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    title="Gloriosa Gardens location map"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <strong class="footer-brand">Gloriosa Gardens</strong>
+                <p>Garden maintenance &amp; design in Florida, Roodepoort, Gauteng.</p>
+            </div>
+            <nav aria-label="Footer">
+                <a href="Home.html">Home</a> <a href="About us.html">About Us</a> <a href="Services.html">Services</a>
+                <a href="Gallery.html">Gallery</a> <a href="Contact us.html">Contact Us</a> <a href="Enquiry.html">Enquiry</a>
+            </nav>
+            <div>
+                <p>Tel: <a href="tel:+27847239418">+27 84 723 9418</a><br>
+                <a href="mailto:gloriosa123.rl@gmail.com">gloriosa123.rl@gmail.com</a><br>Mon&ndash;Fri 07:00&ndash;17:00 &middot; Sat 08:00&ndash;13:00</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; <span data-year>2026</span> Gloriosa Gardens &mdash; ST10527831</p>
+    </footer>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script defer src="Java Script/validator.js"></script>
+    <script defer src="Java Script/datetime.js"></script>
+    <script defer src="Java Script/main.js"></script>
+</body>
+</html>

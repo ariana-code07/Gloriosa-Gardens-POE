@@ -1,0 +1,11 @@
+{
+  "note": "Illustrative estimate rates in ZAR used by the enquiry form. Replace with Gloriosa Gardens' real rates.",
+  "rangePercent": 15,
+  "frequency": { "once": 1, "monthly": 0.95, "fortnightly": 0.9, "weekly": 0.85 },
+  "services": {
+    "maintenance": { "label": "Regular Maintenance", "type": "per visit", "sizes": { "small": 350, "medium": 550, "large": 850 } },
+    "plant-care":  { "label": "Plant Care", "type": "per visit", "sizes": { "small": 300, "medium": 450, "large": 700 } },
+    "clean-up":    { "label": "Clean-Up & Extras", "type": "per visit", "sizes": { "small": 400, "medium": 650, "large": 1000 } },
+    "design":      { "label": "Garden Design", "type": "once-off project", "sizes": { "small": 2500, "medium": 5000, "large": 9500 } }
+  }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry</title>
+    <meta name="description" content="Get an instant garden maintenance estimate and availability check from Gloriosa Gardens. Free, no-obligation quotes in Roodepoort and surrounding Gauteng.">
+    <meta name="keywords" content="garden quote Roodepoort, garden maintenance prices, free garden estimate, book a gardener Gauteng">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Gloriosa Gardens">
+    <meta name="theme-color" content="#16301F">
+    <link rel="canonical" href="https://gloriosagardens.netlify.app/enquiry.html">
+    <link rel="icon" type="image/png" href="images/gloriosa-gardens-logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:site_name" content="Gloriosa Gardens">
+    <meta property="og:title" content="Enquiry">
+    <meta property="og:description" content="Get an instant garden maintenance estimate and availability check from Gloriosa Gardens. Free, no-obligation quotes in Roodepoort and surrounding Gauteng.">
+    <meta property="og:url" content="https://gloriosagardens.netlify.app/enquiry.html">
+    <meta property="og:image" content="https://gloriosagardens.netlify.app/images/garden-lawn-background.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="topbar" id="topbar">
+        <time id="gg-datetime" datetime=""><span id="gg-date"></span> <span class="sep">&middot;</span> <span id="gg-clock"></span></time>
+        <span id="gg-status" class="status">Mon&ndash;Fri 07:00&ndash;17:00 &middot; Sat 08:00&ndash;13:00</span>
+    </div>
+    <div class="flame-rule"></div>
+    <header class="site-header">
+        <div class="brand-row">
+            <img class="logo" src="Images/gloriosa-gardens-logo.png" style="width: 23cm;height: 5cm;">
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="Home.html">Home</a>
+            <a href="About us.html">About Us</a>
+            <a href="Services.html">Services</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Contact us.html">Contact Us</a>
+            <a href="Enquiry.html" class="active">Enquiry</a>
+        </nav>
+    </header>
+
+    <section class="hero" style="--hero-image: url('Images/gloriosa-gardens-logo.png');">
+        <span class="eyebrow">Request A Quote</span>
+        <h1>Send Us An Enquiry</h1>
+        <p class="lede">Tell us a little about your garden and what you need. We'll get back to you to arrange a free, no-obligation quote.</p>
+        <div class="hero-divider"></div>
+    </section>
+
+    <main id="main">
+        <section>
+            <div class="section-heading"><span class="kicker">Free, No-Obligation</span><h2>Request Your Garden Estimate</h2><p>Complete the form for an instant estimate and availability check. A final written quote follows a free site visit.</p></div>
+            <div class="form-card">
+                <form id="enquiry-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-group"><label for="name">Full Name <span class="required">*</span></label><input type="text" id="name" name="name" data-rule="name" placeholder="Jane Dlamini" required autocomplete="name" maxlength="60"><div class="field-meta"><span class="field-error" id="name-error" role="alert"></span></div></div>
+                        <div class="form-group"><label for="phone">Phone Number <span class="required">*</span></label><input type="tel" id="phone" name="phone" data-rule="phone" placeholder="082 123 4567" required autocomplete="tel"><div class="field-meta"><span class="field-error" id="phone-error" role="alert"></span></div></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"><label for="email">Email Address <span class="required">*</span></label><input type="email" id="email" name="email" data-rule="email" placeholder="you@example.com" required autocomplete="email"><div class="field-meta"><span class="field-error" id="email-error" role="alert"></span></div></div>
+                        <div class="form-group"><label for="service">Service Needed <span class="required">*</span></label><select id="service" name="service" data-rule="select" required><option value="">Choose&hellip;</option><option value="maintenance">Regular Maintenance</option><option value="plant-care">Plant Care</option><option value="clean-up">Clean-Up &amp; Extras</option><option value="design">Garden Design</option></select><div class="field-meta"><span class="field-error" id="service-error" role="alert"></span></div></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group"><label for="size">Garden Size <span class="required">*</span></label><select id="size" name="size" data-rule="select" required><option value="">Choose&hellip;</option><option value="small">Small (townhouse / courtyard)</option><option value="medium">Medium (average suburban garden)</option><option value="large">Large (big garden / grounds)</option></select><div class="field-meta"><span class="field-error" id="size-error" role="alert"></span></div></div>
+                        <div class="form-group"><label for="frequency">How Often? <span class="required">*</span></label><select id="frequency" name="frequency" data-rule="select" required><option value="">Choose&hellip;</option><option value="once">Once-off</option><option value="monthly">Monthly</option><option value="fortnightly">Every two weeks</option><option value="weekly">Weekly</option></select><div class="field-meta"><span class="field-error" id="frequency-error" role="alert"></span></div></div>
+                    </div>
+                    <div class="form-group"><label for="date">Preferred Start Date <span class="required">*</span></label><input type="date" id="date" name="date" data-rule="date" placeholder="" required ><div class="field-meta"><span class="field-error" id="date-error" role="alert"></span></div></div>
+                    <div class="form-group"><label for="message">Tell Us About Your Garden <span class="required">*</span></label><textarea id="message" name="message" data-rule="message" rows="5" minlength="10" maxlength="500" required placeholder="What would you like done? Any specific concerns?"></textarea><div class="field-meta"><span class="field-error" id="message-error" role="alert"></span><span class="char-count" id="message-count">0 / 500</span></div></div>
+                    <button type="submit" class="form-submit">Get My Estimate</button>
+                </form>
+                <div id="enquiry-result" class="result-panel" hidden tabindex="-1" aria-live="polite"></div>
+                <p class="form-alt-contact">Prefer to talk? Call <strong>+27 84 723 9418</strong> or use our <a href="Contact us.html">contact page</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <strong class="footer-brand">Gloriosa Gardens</strong>
+                <p>Garden maintenance &amp; design in Florida, Roodepoort, Gauteng.</p>
+            </div>
+            <nav aria-label="Footer">
+                <a href="Home.html">Home</a> <a href="About us.html">About Us</a> <a href="Services.html">Services</a>
+                <a href="Gallery.html">Gallery</a> <a href="Contact us.html">Contact Us</a> <a href="Enquiry.html">Enquiry</a>
+            </nav>
+            <div>
+                <p>Tel: <a href="tel:+27847239418">+27 84 723 9418</a><br>
+                <a href="mailto:gloriosa123.rl@gmail.com">gloriosa123.rl@gmail.com</a><br>Mon&ndash;Fri 07:00&ndash;17:00 &middot; Sat 08:00&ndash;13:00</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; <span data-year>2026</span> Gloriosa Gardens &mdash; ST10527831</p>
+    </footer>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="Java Script/validator.js"></script>
+    <script defer src="Java Script/datetime.js"></script>
+    <script defer src="Java Script/main.js"></script>
+</body>
+</html>

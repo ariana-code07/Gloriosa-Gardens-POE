@@ -8,8 +8,7 @@ References
 - CSS: https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf
 - HTML: https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
 - Java script: https://websitesetup.org/wp-content/uploads/2020/09/Javascript-Cheat-Sheet.pdf
-- Github: https://github.com/ariana-code07/Gloriosa-Gardens.git
-
+- Github: https://github.com/ariana-code07/Gloriosa-Gardens-POE/tree/master
 
 Project Overview: 
 

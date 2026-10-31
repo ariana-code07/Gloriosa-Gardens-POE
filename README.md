@@ -75,10 +75,10 @@ Changelog
 
 
   Part 3 Details (Java Script)
-- Renamed pages to clean URLs: Home.html → index.html, About us.html → about.html, Contact us.html → contact.html (and services, gallery, enquiry in lowercase); every link updated and a _redirects file added for the old names.
-- Renamed folders to lowercase (css/, js/, images/) and images to descriptive names (e.g. bushes.jpg → trimmed-garden-bushes.jpg); compressed large images.
+- Renamed pages to clean URLs: Home.html → index.html
+- Renamed  images to descriptive names (e.g. bushes.jpg → trimmed-garden-bushes.jpg); compressed large images.
 JavaScript interactivity (js/main.js, jQuery)
--S ervices page now builds its cards in JavaScript with live search, a category filter and A–Z / Z–A / category sorting; the original static list is kept inside <noscript>.
+-Services page now builds its cards in JavaScript with live search, a category filter and A–Z / Z–A / category sorting; the original static list is kept inside <noscript>.
 - Added a FAQ accordion on Services and a click-to-enlarge lightbox on Gallery (keyboard and previous/next support).
 -	Added scroll-reveal animations, animated stat counters and hover effects, all disabled for visitors who prefer reduced motion.
 Forms
@@ -107,7 +107,6 @@ Gallery slideshow (js/slideshow.js)
 -	Kept the click-to-enlarge photo grid below the slideshow.
 Added
 -	README.md now covers Part 3 details, the new scripts, SEO, deployment steps, sitemap, a versioned changelog (3.0–3.12) and references.
--	The Part 2 feedback section in the changelog is left as a template for you to complete.
 
 
   

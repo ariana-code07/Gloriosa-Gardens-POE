@@ -1,7 +1,10 @@
 Project Title: Glorosia Gardens
 
 Student information: Ariana Lyall ST10527831
+
+
 References
+
 - Inspriation: https://lifestyle.co.za/?srsltid=AfmBOooDEwHAZx6Sxh3kyTRpnQKxPgGKoxcfeOCRTpvV8va8c27Sfs_2
 - Buguet: https://www.growthpulsemedia.co.za/website-cost-south-africa/
 - Logo: https://www.canva.com/design/DAHRg61_xCs/NPJQEmo1TPmjTWxRkcUhEw/edit?ui=e30
